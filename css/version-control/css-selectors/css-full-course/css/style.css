@@ -1,0 +1,34 @@
+ html {
+ font-size: 22px;
+ }
+
+ main {
+    font-family: monospace;
+ }
+
+/*General element selector p and body*/
+p{
+    color: darkolivegreen !important; /* !important override the rule here, css more like waterfall, the last rule apply unless we specify the elements or class or flag as important like we do now*/
+}
+p {
+    color: maroon;
+}
+
+h1, h2 {
+    color: rgb(81, 81, 145);
+}
+
+/*class elements. this elements are more specific than general elements*/
+.text-2, .text-3{
+    color: rgb(121, 76, 76);
+}
+
+/*id elements, not using id for good practice*/
+#text-2 {
+    font-style: italic;
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
