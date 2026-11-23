@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*margin, padding all 0 means we dont have space on very beginning. very bad design choice by the way*/
+}
+
+h1{
+    border: 2px dashed rgb(139, 139, 149);
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em; /*em multiply root element*/
+}
+
+body {
+    min-height: 100vh; /*vh mean viewpoint height. it determine the heigh of the screen, 100vh means total vertical screen, 50vh means 50 vertical screen height */
+}
+
+main{
+    font-size: 2rem; /*rem means root element. by default browser width  16px or 1rem*/
+    
+}
+
+p{
+    font-size: 1.3rem;
+    width: 75ch; /*ch means character per line we want to show */
+}
+
